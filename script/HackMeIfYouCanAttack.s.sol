@@ -34,7 +34,7 @@ contract HackMeIfYouCanAttack is Script, Test {
     bytes32 private constant password = 0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef;
     bytes32[15] private data;
 
-    address payable attacker = payable(0xA983CDfD2824FcB49D6203360bE2084752DB24B6);  // Remplacez par une adresse valide avec des fonds
+    address payable attacker = payable(0xA983CDfD2824FcB49D6203360bE2084752DB24B6);  
     address hackMeIfYouCanAddress = 0x9D29D33d4329640e96cC259E141838EB3EB2f1d9;
 
     function setUp() public {
