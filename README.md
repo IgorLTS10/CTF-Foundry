@@ -64,3 +64,22 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+
+## Explantion of the script
+
+# testContribute
+- Le script émule un attaquant avec 1 ether
+- On appelle la fonction contribute avec 0.0005 ether
+- On vérifie si la contribution est correctement enregistré
+
+# testFlip
+- Le script émule un attaquant qui va se déplacer dans le block suivant pour utiliser le même block hash sur le block précédent
+- Le script calcule un hash basé sur le précédent et appele la flipFunction pour voir si le flip est le bon
+
+# testReceive
+- On envoie un ether au contrat pour voir s'il le recois
+
+# testPassword
+- On envoie un mot de passe prédéfini pour tester
+
